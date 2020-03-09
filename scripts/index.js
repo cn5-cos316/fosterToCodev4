@@ -24,7 +24,10 @@ if (data.length) {
     const li = `
         <li>
         <div class="collapsible-header grey lighten-4"> ${guide.title} </div>
-        <div class="collapsible-body white"> ${guide.content} </div>
+        <div class="collapsible-body white"> ${guide.content}
+        <a href = ""> Click ${guide.link} to begin! </a>
+        </div>
+        
         </li>
     `;
     html += li;
