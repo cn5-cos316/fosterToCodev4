@@ -25,7 +25,7 @@ if (data.length) {
         <li>
         <div class="collapsible-header grey lighten-4"> ${guide.title} </div>
         <div class="collapsible-body white"> ${guide.content}
-        <a href = ""> Click ${guide.link} to begin! </a>
+        Click <a href = ${guide.link}>  here  </a> to begin!
         </div>
         
         </li>
